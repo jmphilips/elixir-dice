@@ -10,4 +10,8 @@ defmodule Dice do
     end
 
 
+    def rolled_number do 
+        create_dice
+        |> roll_dice
+    end
 end
