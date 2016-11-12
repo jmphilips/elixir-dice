@@ -14,7 +14,7 @@ defmodule Dice do
     end
 
     def number_of_rolls(number, old_list) when number == 0 do
-        old_list
+        %{numbers: old_list, sum: Enum.sum(old_list)}
     end
 
     def number_of_rolls(number, old_list) do

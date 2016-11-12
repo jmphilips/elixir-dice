@@ -1,24 +1,5 @@
 # Dice
 
-**TODO: Add description**
+Learning Elixir through the creation a dice rolling application. 
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
-
-  1. Add `dice` to your list of dependencies in `mix.exs`:
-
-    ```elixir
-    def deps do
-      [{:dice, "~> 0.1.0"}]
-    end
-    ```
-
-  2. Ensure `dice` is started before your application:
-
-    ```elixir
-    def application do
-      [applications: [:dice]]
-    end
-    ```
-
+Yout
