@@ -8,7 +8,7 @@ defmodule Dice do
         returns a list [1, 2, 3, 4, 5, 6]
 
     ## Examples
-        iex(11)> Dice.create_dice
+        iex()> Dice.create_dice
             [1, 2, 3, 4, 5, 6]
     """
     def create_dice do 
