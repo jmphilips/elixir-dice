@@ -1,5 +1,16 @@
 defmodule Dice do
 
+    @moduledoc """
+        This is the Dice module.
+    """
+
+    @doc """
+        returns a list [1, 2, 3, 4, 5, 6]
+
+    ## Examples
+        iex(11)> Dice.create_dice
+            [1, 2, 3, 4, 5, 6]
+    """
     def create_dice do 
         [1, 2, 3, 4, 5, 6]
     end
