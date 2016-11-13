@@ -55,4 +55,12 @@ defmodule Dice do
         List.flatten([rolled_number | old_list])
     end
 
+    def roll_map_to_string(map) do
+      Integer.to_string(map.sum)  
+    end
+
+    def convert_roll_to_string(number) do
+        number |> number_of_rolls |> roll_map_to_string
+    end
+
 end
